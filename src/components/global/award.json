@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_global_awards",
+  "info": {
+    "displayName": "award",
+    "icon": "award",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "player": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::player.player"
+    },
+    "award": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::award.award"
+    }
+  }
+}
